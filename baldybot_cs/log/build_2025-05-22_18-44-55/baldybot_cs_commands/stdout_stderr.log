@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/PKG-INFO
+writing dependency_links to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/dependency_links.txt
+writing entry points to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/entry_points.txt
+writing requirements to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/requires.txt
+writing top-level names to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/top_level.txt
+reading manifest file '../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/SOURCES.txt'
+writing manifest file '../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/SOURCES.txt'
+running build
+running build_py
+copying baldybot_cs_commands/2_axe_joy.py -> /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build/lib/baldybot_cs_commands
+running install
+running install_lib
+copying /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build/lib/baldybot_cs_commands/2_axe_joy.py -> /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands
+byte-compiling /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands/2_axe_joy.py to 2_axe_joy.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info to /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm_gripper_commands script to /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/baldybot_cs_commands
+Installing slow_joy script to /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/baldybot_cs_commands
+writing list of installed files to '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/install.log'

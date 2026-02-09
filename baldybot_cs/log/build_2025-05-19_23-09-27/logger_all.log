@@ -1,0 +1,200 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7341eb850820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7341eb95dba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7341eb95dba0>>)
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.302s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/itti_jammy/Desktop/baldybot_cs'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_bringup) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baldybot_cs_bringup' with type 'ros.ament_cmake' and name 'baldybot_cs_bringup'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/baldybot_cs_commands) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baldybot_cs_commands' with type 'ros.ament_python' and name 'baldybot_cs_commands'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/itti_jammy/RoverBaldies_ws/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/itti_jammy/ros2_ws_jammy/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/itti_jammy/Desktop/articubot_one/install
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'baldybot_cs_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup', 'merge_install': False, 'path': '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'baldybot_cs_commands' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'baldybot_cs_commands' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands', 'merge_install': False, 'path': '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_commands', 'symlink_install': False, 'test_result_base': None}
+[0.390s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup'
+[0.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_commands' with build type 'ament_python'
+[0.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('baldybot_cs_commands', 'ament_prefix_path')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/hook/ament_prefix_path.ps1'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/hook/ament_prefix_path.dsv'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/hook/ament_prefix_path.sh'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --build /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup -- -j16 -l16
+[0.625s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_commands'
+[0.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --build /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup -- -j16 -l16
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --install /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup
+[0.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baldybot_cs_bringup)
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --install /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup' for CMake module files
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup' for CMake config files
+[0.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('baldybot_cs_bringup', 'cmake_prefix_path')
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/hook/cmake_prefix_path.ps1'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/hook/cmake_prefix_path.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/hook/cmake_prefix_path.sh'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/bin'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/lib/pkgconfig/baldybot_cs_bringup.pc'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/lib/python3.10/site-packages'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/bin'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.ps1'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.dsv'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.sh'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.bash'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.zsh'
+[0.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/colcon-core/packages/baldybot_cs_bringup)
+[0.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baldybot_cs_bringup)
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup' for CMake module files
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup' for CMake config files
+[0.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('baldybot_cs_bringup', 'cmake_prefix_path')
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/hook/cmake_prefix_path.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/hook/cmake_prefix_path.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/hook/cmake_prefix_path.sh'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/bin'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/lib/pkgconfig/baldybot_cs_bringup.pc'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/lib/python3.10/site-packages'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/bin'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.ps1'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.sh'
+[0.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.bash'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.zsh'
+[0.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/colcon-core/packages/baldybot_cs_bringup)
+[0.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_commands': PYTHONPATH=/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/baldybot_cs_commands build --build-base /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build install --record /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/install.log --single-version-externally-managed install_data
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands' for CMake module files
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_commands' returned '0': PYTHONPATH=/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/baldybot_cs_commands build --build-base /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build install --record /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/install.log --single-version-externally-managed install_data
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands' for CMake config files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/bin'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/pkgconfig/baldybot_cs_commands.pc'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages'
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('baldybot_cs_commands', 'pythonpath')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/hook/pythonpath.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/hook/pythonpath.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/hook/pythonpath.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baldybot_cs_commands)
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/package.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/package.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/package.sh'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/package.bash'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/baldybot_cs_commands/package.zsh'
+[1.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/share/colcon-core/packages/baldybot_cs_commands)
+[1.188s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.189s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.201s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.247s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/itti_jammy/Desktop/baldybot_cs/install/local_setup.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/itti_jammy/Desktop/baldybot_cs/install/_local_setup_util_ps1.py'
+[1.253s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/itti_jammy/Desktop/baldybot_cs/install/setup.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/itti_jammy/Desktop/baldybot_cs/install/local_setup.sh'
+[1.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/itti_jammy/Desktop/baldybot_cs/install/_local_setup_util_sh.py'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/itti_jammy/Desktop/baldybot_cs/install/setup.sh'
+[1.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/itti_jammy/Desktop/baldybot_cs/install/local_setup.bash'
+[1.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/itti_jammy/Desktop/baldybot_cs/install/setup.bash'
+[1.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/itti_jammy/Desktop/baldybot_cs/install/local_setup.zsh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/itti_jammy/Desktop/baldybot_cs/install/setup.zsh'

@@ -1,0 +1,56 @@
+[0.210s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/itti_jammy/Desktop/baldybot_cs']
+[0.210s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/itti_jammy/Desktop/baldybot_cs'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7acbc485d9f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7acbc485c550>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7acbc485c550>>)
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.706s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/itti_jammy/Desktop/baldybot_cs'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extensions ['colcon_meta']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'colcon_meta'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extensions ['ros']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'ros'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extensions ['cmake', 'python']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'cmake'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'python'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extensions ['python_setup_py']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/build) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/build) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/build) ignored
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/install) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/install) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/install) ignored
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/log) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/log) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/log) ignored
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'ros'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extensions ['cmake', 'python']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'cmake'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'python'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extensions ['python_setup_py']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src) by extension 'python_setup_py'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Package '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup' with type 'ros.ament_cmake' and name 'baldybot_cs_bringup'
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

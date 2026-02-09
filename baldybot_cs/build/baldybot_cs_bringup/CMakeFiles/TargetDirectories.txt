@@ -1,0 +1,9 @@
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/uninstall.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/baldybot_cs_bringup_uninstall.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/test.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/edit_cache.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/rebuild_cache.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/list_install_components.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/install.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/install/local.dir
+/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup/CMakeFiles/install/strip.dir

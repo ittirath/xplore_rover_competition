@@ -1,0 +1,24 @@
+[0.573s] Invoking command in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_commands': PYTHONPATH=/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/baldybot_cs_commands build --build-base /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build install --record /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/install.log --single-version-externally-managed install_data
+[0.771s] running egg_info
+[0.772s] writing ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/PKG-INFO
+[0.772s] writing dependency_links to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/dependency_links.txt
+[0.773s] writing entry points to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/entry_points.txt
+[0.773s] writing requirements to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/requires.txt
+[0.773s] writing top-level names to ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/top_level.txt
+[0.774s] reading manifest file '../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/SOURCES.txt'
+[0.775s] writing manifest file '../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info/SOURCES.txt'
+[0.775s] running build
+[0.776s] running build_py
+[0.776s] copying baldybot_cs_commands/arm_gripper_commands.py -> /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build/lib/baldybot_cs_commands
+[0.776s] running install
+[0.776s] running install_lib
+[0.777s] copying /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build/lib/baldybot_cs_commands/arm_gripper_commands.py -> /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands
+[0.777s] byte-compiling /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands/arm_gripper_commands.py to arm_gripper_commands.cpython-310.pyc
+[0.778s] running install_data
+[0.778s] running install_egg_info
+[0.779s] removing '/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands-0.0.0-py3.10.egg-info' (and everything under it)
+[0.780s] Copying ../../build/baldybot_cs_commands/baldybot_cs_commands.egg-info to /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages/baldybot_cs_commands-0.0.0-py3.10.egg-info
+[0.780s] running install_scripts
+[0.796s] Installing arm_gripper_commands script to /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/baldybot_cs_commands
+[0.797s] writing list of installed files to '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/install.log'
+[0.825s] Invoked command in '/home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_commands' returned '0': PYTHONPATH=/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/baldybot_cs_commands build --build-base /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/build install --record /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_commands/install.log --single-version-externally-managed install_data

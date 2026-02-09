@@ -1,0 +1,42 @@
+[0.014s] Invoking command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/Desktop/RoverBaldies_CS/install/rover_commands:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake /home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup -DCMAKE_INSTALL_PREFIX=/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.382s] -- Detecting C compile features - done
+[0.384s] -- Detecting CXX compiler ABI info
+[0.506s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.312s] -- Found Python3: /home/itti_jammy/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[1.566s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.765s] -- Added test 'lint_cmake' to check CMake code style
+[1.767s] -- Added test 'xmllint' to check XML markup files
+[1.768s] -- Configuring done
+[1.771s] -- Generating done
+[1.773s] -- Build files have been written to: /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup
+[1.778s] Invoked command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/Desktop/RoverBaldies_CS/install/rover_commands:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake /home/itti_jammy/Desktop/baldybot_cs/src/baldybot_cs_bringup -DCMAKE_INSTALL_PREFIX=/home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup
+[1.781s] Invoking command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/Desktop/RoverBaldies_CS/install/rover_commands:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --build /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup -- -j16 -l16
+[1.850s] Invoked command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/Desktop/RoverBaldies_CS/install/rover_commands:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --build /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup -- -j16 -l16
+[1.874s] Invoking command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/Desktop/RoverBaldies_CS/install/rover_commands:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --install /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup
+[1.891s] -- Install configuration: ""
+[1.891s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/ament_index/resource_index/package_run_dependencies/baldybot_cs_bringup
+[1.891s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/ament_index/resource_index/parent_prefix_path/baldybot_cs_bringup
+[1.891s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/environment/ament_prefix_path.sh
+[1.891s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/environment/ament_prefix_path.dsv
+[1.892s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/environment/path.sh
+[1.892s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/environment/path.dsv
+[1.892s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/local_setup.bash
+[1.892s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/local_setup.sh
+[1.892s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/local_setup.zsh
+[1.892s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/local_setup.dsv
+[1.893s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.dsv
+[1.893s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/ament_index/resource_index/packages/baldybot_cs_bringup
+[1.893s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/cmake/baldybot_cs_bringupConfig.cmake
+[1.893s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/cmake/baldybot_cs_bringupConfig-version.cmake
+[1.893s] -- Installing: /home/itti_jammy/Desktop/baldybot_cs/install/baldybot_cs_bringup/share/baldybot_cs_bringup/package.xml
+[1.896s] Invoked command in '/home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/itti_jammy/Desktop/RoverBaldies_CS/install/rover_commands:/home/itti_jammy/ros2_ws_jammy/install/my_py_pkg:/home/itti_jammy/RoverBaldies_ws/install/baldybot_CS:/opt/ros/humble /usr/bin/cmake --install /home/itti_jammy/Desktop/baldybot_cs/build/baldybot_cs_bringup
