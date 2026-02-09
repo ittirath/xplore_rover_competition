@@ -1,5 +1,0 @@
-[console_scripts]
-arm_gripper_commands = baldybot_cs_commands.arm_gripper_commands:main
-slow_joy = baldybot_cs_commands.slow_joy:main
-two_wheel_joy = baldybot_cs_commands.two_wheel_joy:main
-
